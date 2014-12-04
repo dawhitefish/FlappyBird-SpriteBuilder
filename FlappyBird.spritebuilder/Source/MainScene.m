@@ -19,7 +19,7 @@
     NSArray *_clouds;
     
     CCNode *_bush1;
-    CCnode *_bush2;
+    CCNode *_bush2;
     NSArray *_bushes;
     
     
@@ -160,7 +160,8 @@
             bush.position = ccp(bush.position.x - (character.physicsBody.velocity.x * delta),bush.position.y);
             // if left coner one unit off the screen move to right
             if (bush.position.x <= (-1 * bush.contentSize.width)) {
-                bush.position = cpp(bush.position.x + 2 * bush.contentSize.width, bush.position.y);
+                bush.position = ccp(bush.position.x +
+                                    2 * bush.contentSize.width, bush.position.y);
             }
         }
         
