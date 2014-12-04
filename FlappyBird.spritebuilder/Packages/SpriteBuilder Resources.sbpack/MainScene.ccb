@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>13</integer>
+	<integer>15</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -151,7 +151,7 @@
 			</dict>
 			<dict>
 				<key>UUID</key>
-				<integer>3</integer>
+				<integer>13</integer>
 				<key>baseClass</key>
 				<string>CCSprite</string>
 				<key>children</key>
@@ -182,7 +182,7 @@
 						<key>value</key>
 						<array>
 							<real>0.0</real>
-							<real>434</real>
+							<real>432</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -259,7 +259,7 @@
 			</dict>
 			<dict>
 				<key>UUID</key>
-				<integer>11</integer>
+				<integer>14</integer>
 				<key>baseClass</key>
 				<string>CCSprite</string>
 				<key>children</key>
@@ -290,7 +290,7 @@
 						<key>value</key>
 						<array>
 							<real>374</real>
-							<real>434</real>
+							<real>432</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -580,8 +580,6 @@
 						<array/>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
